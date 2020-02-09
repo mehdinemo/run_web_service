@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP=run_web_service_on_ubuntu
+APP=run_web_service
 GIT=https://github.com
 USR=mehdinemo
 APP_SRC=${GIT}/{USR}/${APP}/-/archive/master/${APP}-master.tar
