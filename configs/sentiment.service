@@ -1,0 +1,13 @@
+[Unit]
+Description=Sentiment web service
+After=network.target
+
+[Service]
+User=servant
+Group=www-data
+WorkingDirectory=/srv/sentiment
+Environment="PATH=/srv/sentiment/venv/bin"
+ExecStart=/srv/sentiment/venv/bin/uwsgi --ini sentiment.ini
+
+[Install]
+WantedBy=multi-user.target

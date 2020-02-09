@@ -1,0 +1,3 @@
+http://gitlab.datamining.io/cleanism/sentiment/-/archive/master/sentiment-master.zip
+flask
+uwsgi
